@@ -11,7 +11,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(CC) $(CPPFLAGS) -o $(NAME) $(OBJ)
 
-%.o: %.cpp 
+%.o: %.cpp ScalarConverter.hpp main.hpp
 	$(CC) $(CPPFLAGS) -c $< -o $@
 
 clean:
