@@ -1,10 +1,10 @@
-SRC = 
+SRC = ScalarConverter.cpp main.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -f
 
-NAME = 
+NAME = convert
 
 all: $(NAME)
 
